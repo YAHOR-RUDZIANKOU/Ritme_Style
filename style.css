@@ -1,0 +1,379 @@
+body{
+  font-family: 'Proxima Nova', Georgia, sans-serif;
+  font-family: 'El Messiri', sans-serif;
+  background-color: #162831;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+/* Header*/
+
+
+.container{
+  margin: 0 110px;
+}
+
+header{
+  margin: 30px 0px 50px ;
+}
+
+.header-inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item{
+  margin-right: 40px;
+  font-family: 'Proxima Nova', Georgia, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400px;
+  color: white;
+  text-decoration: none;
+  transition: color 0.5s linear;
+}
+
+.item:hover{
+  color: blue;
+}
+
+nav a:last-child{
+  margin-right: 0px;
+}
+
+.head-btn{
+  font-family: 'Proxima Nova', Georgia, sans-serif;
+  color: white;
+  font-weight: 600px;
+  font-size: 13px;
+  line-height: 18px;
+  text-decoration: none;
+  padding: 9px 15px;
+  background-color: #018ABE;
+  border-radius: 3px;
+
+  transition: all 0.7s linear;
+}
+
+.head-btn:hover{
+  background-color: white;
+  color: black;
+}
+
+/* main */
+
+main{
+  background-image: url(assets/images/bg-main.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  margin-bottom: 150px;
+  margin-right: 110px;
+  margin-left: 110px;
+}
+
+
+.main-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 136px;
+}
+
+.main-title p{
+  font-family: 'El Messiri', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+  color: white;
+  margin-left: 66px;
+  margin-right: 66px;
+}
+
+.main-title img{
+  width: 28px;
+  height: 14px;
+}
+
+.foot-title{
+text-align: center;
+font-family: 'El Messiri', sans-serif;
+font-size: 64px;
+font-weight: 700;
+line-height: 89px;
+color: white;
+margin-top: 40px;
+}
+
+
+
+/* Section the first */
+
+
+
+
+
+
+.seans
+{
+  padding-bottom: 850px;
+}
+
+.seanse{
+  
+}
+
+.section-left {
+  display: grid;
+  grid-template-areas: 'big small small'
+                        'big small small';
+  grid-template-rows: 1fr 1fr;
+}
+
+.qwerty {
+  grid-area: big;
+}
+
+.qwert {
+  grid-area: small;
+  display: block;
+}
+
+/* Section the second */
+
+.comments{
+  padding-bottom: 150px;
+}
+
+.comment-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.comment-title p{
+  margin-left: 45px ;
+  margin-right: 45px;
+  font-family: 'El Messiri', sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 58px;
+  color: white;
+}
+
+.comment-title img{
+  width: 28px;
+  height: 14px;
+}
+
+.comments-inner{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.comments-item{
+  background-color: #018ABE;
+  color: white;
+  padding: 50px 60px 56px 60px;
+  border-radius: 10px;
+  font-family: 'Proxima Nova', Georgia, sans-serif;
+}
+
+.comments-item h3{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 20px;
+  margin-bottom: 60px;
+}
+
+
+.comments-item p{
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.comments-item:nth-child(1),
+.comments-item:nth-child(3){
+  transform: scale(0.8);
+}
+
+.comments-item:nth-child(1),
+.comments-item:nth-child(3){
+  opacity: 0.4;
+}
+.comment-inner-bar{
+text-align: center;
+margin-bottom: 150px;
+}
+
+.comment-inner-bar img{
+  margin-right: 20px;
+}
+
+.comment-inner-bar img:nth-of-type(2),
+.comment-inner-bar img:nth-of-type(3),
+.comment-inner-bar img:nth-of-type(4){
+  opacity: 0.4;
+}
+
+
+
+.about{
+  margin-bottom: 150px;
+}
+
+.about-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.about-title img{
+  width: 28px;
+  height: 14px;
+}
+
+.about-title p{
+  margin-left: 45px;
+  margin-right: 45px;
+  color: white;
+  font-size: 42px;
+}
+
+.about-main{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  
+}
+
+.topic{
+  width: 40%;
+  color: white;
+  margin: 40px;
+}
+
+
+/* cost our product */
+
+.cost{
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 150px;
+}
+
+.cost-title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.comment-title img{
+  width: 28px;
+  height: 14px;
+}
+
+.cost-title p{
+  margin-left: 45px ;
+  margin-right: 45px;
+  font-family: 'El Messiri', sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 58px;
+  color: white;
+}
+
+
+.left-items{
+  margin-bottom: 30px;
+}
+
+.inner{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.left-items p{
+  margin-left: 20px;
+  font-family: 'Proxima Nova', Georgia, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: white;
+  }
+  
+
+.left div{
+  display: flex;
+  align-items: center;
+}
+
+.left img{
+  width: 18px;
+  height: 9px;
+}
+
+.lefmid{
+  display: flex;
+  align-items: center;
+}
+
+.middle{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: 'El Messiri', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: white;
+  margin-left: 130px;
+}
+
+.middle{
+  margin-top: -57px;
+}
+.middle span{
+  margin-top: 30px;
+}
+
+.sertificat p{
+  font-family: 'El Messiri', sans-serif;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 29px;
+  margin-top: 30px;
+  color: white;
+  
+}
+
+.right{
+  position: relative;
+}
+
+.right p{
+  position: absolute;
+  bottom: -30px;
+  right: 130px;
+}
